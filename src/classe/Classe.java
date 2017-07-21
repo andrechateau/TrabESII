@@ -30,4 +30,8 @@ public class Classe {
         this.A3 = A3;
     }
 
+    public float soma() {
+        return A1 + A2;
+    }
+
 }
