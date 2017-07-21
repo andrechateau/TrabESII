@@ -6,6 +6,7 @@ public class Classe {
     private float A2;
     private String A3;
     private String APRINC4;
+    private String aramo4;
 
     public int getA1() {
         return A1;
@@ -41,6 +42,15 @@ public class Classe {
 
     public void setAPRINC4(String APRINC4) {
         this.APRINC4 = APRINC4;
+
+    }
+
+    public String getAramo4() {
+        return aramo4;
+    }
+
+    public void setAramo4(String aramo4) {
+        this.aramo4 = aramo4;
     }
 
 }
