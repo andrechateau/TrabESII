@@ -5,6 +5,7 @@ public class Classe {
     private int A1;
     private float A2;
     private String A3;
+    private String APRINC4;
 
     public int getA1() {
         return A1;
@@ -32,6 +33,14 @@ public class Classe {
 
     public float soma() {
         return A1 + A2;
+    }
+
+    public String getAPRINC4() {
+        return APRINC4;
+    }
+
+    public void setAPRINC4(String APRINC4) {
+        this.APRINC4 = APRINC4;
     }
 
 }
