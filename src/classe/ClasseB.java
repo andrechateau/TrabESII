@@ -4,6 +4,7 @@ public class ClasseB {
 
     private int B1;
     private float B2;
+    private String B4;
 
     public int getB1() {
         return B1;
@@ -20,4 +21,13 @@ public class ClasseB {
     public void setB2(float B2) {
         this.B2 = B2;
     }
+
+    public String getB4() {
+        return B4;
+    }
+
+    public void setB4(String B1) {
+        this.B4 = B4;
+    }
+
 }
